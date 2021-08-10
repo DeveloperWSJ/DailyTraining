@@ -142,6 +142,46 @@ DailyTraining/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyTraining.dir\build.make CMakeFiles/DailyTraining.dir/build
 .PHONY : DailyTraining/fast
 
+#=============================================================================
+# Target rules for targets named Day1Text1
+
+# Build rule for target.
+Day1Text1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day1Text1
+.PHONY : Day1Text1
+
+# fast build rule for target.
+Day1Text1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/build
+.PHONY : Day1Text1/fast
+
+src/day1/text1.obj: src/day1/text1.cpp.obj
+
+.PHONY : src/day1/text1.obj
+
+# target to build an object file
+src/day1/text1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/src/day1/text1.cpp.obj
+.PHONY : src/day1/text1.cpp.obj
+
+src/day1/text1.i: src/day1/text1.cpp.i
+
+.PHONY : src/day1/text1.i
+
+# target to preprocess a source file
+src/day1/text1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/src/day1/text1.cpp.i
+.PHONY : src/day1/text1.cpp.i
+
+src/day1/text1.s: src/day1/text1.cpp.s
+
+.PHONY : src/day1/text1.s
+
+# target to generate assembly for a file
+src/day1/text1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/src/day1/text1.cpp.s
+.PHONY : src/day1/text1.cpp.s
+
 src/main/main.obj: src/main/main.cpp.obj
 
 .PHONY : src/main/main.obj
@@ -178,6 +218,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DailyTraining
+	@echo ... Day1Text1
+	@echo ... src/day1/text1.obj
+	@echo ... src/day1/text1.i
+	@echo ... src/day1/text1.s
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s
