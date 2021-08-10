@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\Student\DailyTraining\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -155,6 +155,19 @@ Day1Text1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/build
 .PHONY : Day1Text1/fast
 
+#=============================================================================
+# Target rules for targets named Day2Text1
+
+# Build rule for target.
+Day2Text1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day2Text1
+.PHONY : Day2Text1
+
+# fast build rule for target.
+Day2Text1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text1.dir\build.make CMakeFiles/Day2Text1.dir/build
+.PHONY : Day2Text1/fast
+
 src/day1/text1.obj: src/day1/text1.cpp.obj
 
 .PHONY : src/day1/text1.obj
@@ -181,6 +194,33 @@ src/day1/text1.s: src/day1/text1.cpp.s
 src/day1/text1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day1Text1.dir\build.make CMakeFiles/Day1Text1.dir/src/day1/text1.cpp.s
 .PHONY : src/day1/text1.cpp.s
+
+src/day2/text1.obj: src/day2/text1.cpp.obj
+
+.PHONY : src/day2/text1.obj
+
+# target to build an object file
+src/day2/text1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text1.dir\build.make CMakeFiles/Day2Text1.dir/src/day2/text1.cpp.obj
+.PHONY : src/day2/text1.cpp.obj
+
+src/day2/text1.i: src/day2/text1.cpp.i
+
+.PHONY : src/day2/text1.i
+
+# target to preprocess a source file
+src/day2/text1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text1.dir\build.make CMakeFiles/Day2Text1.dir/src/day2/text1.cpp.i
+.PHONY : src/day2/text1.cpp.i
+
+src/day2/text1.s: src/day2/text1.cpp.s
+
+.PHONY : src/day2/text1.s
+
+# target to generate assembly for a file
+src/day2/text1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text1.dir\build.make CMakeFiles/Day2Text1.dir/src/day2/text1.cpp.s
+.PHONY : src/day2/text1.cpp.s
 
 src/main/main.obj: src/main/main.cpp.obj
 
@@ -219,9 +259,13 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DailyTraining
 	@echo ... Day1Text1
+	@echo ... Day2Text1
 	@echo ... src/day1/text1.obj
 	@echo ... src/day1/text1.i
 	@echo ... src/day1/text1.s
+	@echo ... src/day2/text1.obj
+	@echo ... src/day2/text1.i
+	@echo ... src/day2/text1.s
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s
