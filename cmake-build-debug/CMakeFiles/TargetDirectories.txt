@@ -1,5 +1,7 @@
+D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day2Text2.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/DailyTraining.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day1Text1.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day2Text1.dir
+D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day2Text3.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/edit_cache.dir
