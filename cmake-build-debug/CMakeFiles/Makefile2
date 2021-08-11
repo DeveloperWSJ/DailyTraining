@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = D:\Student\DailyTraining\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/Day2Text2.dir/all
 all: CMakeFiles/DailyTraining.dir/all
+all: CMakeFiles/Day2Text4.dir/all
 all: CMakeFiles/Day1Text1.dir/all
 all: CMakeFiles/Day2Text1.dir/all
 all: CMakeFiles/Day2Text3.dir/all
@@ -88,6 +89,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/Day2Text2.dir/clean
 clean: CMakeFiles/DailyTraining.dir/clean
+clean: CMakeFiles/Day2Text4.dir/clean
 clean: CMakeFiles/Day1Text1.dir/clean
 clean: CMakeFiles/Day2Text1.dir/clean
 clean: CMakeFiles/Day2Text3.dir/clean
@@ -147,6 +149,33 @@ DailyTraining: CMakeFiles/DailyTraining.dir/rule
 CMakeFiles/DailyTraining.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyTraining.dir\build.make CMakeFiles/DailyTraining.dir/clean
 .PHONY : CMakeFiles/DailyTraining.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Day2Text4.dir
+
+# All Build rule for target.
+CMakeFiles/Day2Text4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text4.dir\build.make CMakeFiles/Day2Text4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text4.dir\build.make CMakeFiles/Day2Text4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Day2Text4"
+.PHONY : CMakeFiles/Day2Text4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day2Text4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day2Text4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day2Text4.dir/rule
+
+# Convenience name for target.
+Day2Text4: CMakeFiles/Day2Text4.dir/rule
+
+.PHONY : Day2Text4
+
+# clean rule for target.
+CMakeFiles/Day2Text4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day2Text4.dir\build.make CMakeFiles/Day2Text4.dir/clean
+.PHONY : CMakeFiles/Day2Text4.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Day1Text1.dir
