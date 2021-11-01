@@ -55,7 +55,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Day2Text2.dir/DependInfo.cmake"
   "CMakeFiles/DailyTraining.dir/DependInfo.cmake"
+  "CMakeFiles/Day3Text3.dir/DependInfo.cmake"
+  "CMakeFiles/Day2Text4.dir/DependInfo.cmake"
   "CMakeFiles/Day1Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text1.dir/DependInfo.cmake"
+  "CMakeFiles/Day3Text4.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text3.dir/DependInfo.cmake"
+  "CMakeFiles/Day3Text1.dir/DependInfo.cmake"
+  "CMakeFiles/Day3Text2.dir/DependInfo.cmake"
   )
