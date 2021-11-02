@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Day3Text5
+
+# Build rule for target.
+Day3Text5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day3Text5
+.PHONY : Day3Text5
+
+# fast build rule for target.
+Day3Text5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/build
+.PHONY : Day3Text5/fast
+
+#=============================================================================
 # Target rules for targets named Day2Text2
 
 # Build rule for target.
@@ -195,6 +208,19 @@ Day1Text1/fast:
 .PHONY : Day1Text1/fast
 
 #=============================================================================
+# Target rules for targets named Day3Text6
+
+# Build rule for target.
+Day3Text6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day3Text6
+.PHONY : Day3Text6
+
+# fast build rule for target.
+Day3Text6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/build
+.PHONY : Day3Text6/fast
+
+#=============================================================================
 # Target rules for targets named Day2Text1
 
 # Build rule for target.
@@ -258,6 +284,19 @@ Day3Text2: cmake_check_build_system
 Day3Text2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text2.dir\build.make CMakeFiles/Day3Text2.dir/build
 .PHONY : Day3Text2/fast
+
+#=============================================================================
+# Target rules for targets named Day4Text1
+
+# Build rule for target.
+Day4Text1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day4Text1
+.PHONY : Day4Text1
+
+# fast build rule for target.
+Day4Text1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/build
+.PHONY : Day4Text1/fast
 
 src/day1/text1.obj: src/day1/text1.cpp.obj
 
@@ -502,6 +541,87 @@ src/day3/text4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text4.dir\build.make CMakeFiles/Day3Text4.dir/src/day3/text4.cpp.s
 .PHONY : src/day3/text4.cpp.s
 
+src/day3/text5.obj: src/day3/text5.cpp.obj
+
+.PHONY : src/day3/text5.obj
+
+# target to build an object file
+src/day3/text5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/src/day3/text5.cpp.obj
+.PHONY : src/day3/text5.cpp.obj
+
+src/day3/text5.i: src/day3/text5.cpp.i
+
+.PHONY : src/day3/text5.i
+
+# target to preprocess a source file
+src/day3/text5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/src/day3/text5.cpp.i
+.PHONY : src/day3/text5.cpp.i
+
+src/day3/text5.s: src/day3/text5.cpp.s
+
+.PHONY : src/day3/text5.s
+
+# target to generate assembly for a file
+src/day3/text5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/src/day3/text5.cpp.s
+.PHONY : src/day3/text5.cpp.s
+
+src/day3/text6.obj: src/day3/text6.cpp.obj
+
+.PHONY : src/day3/text6.obj
+
+# target to build an object file
+src/day3/text6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/src/day3/text6.cpp.obj
+.PHONY : src/day3/text6.cpp.obj
+
+src/day3/text6.i: src/day3/text6.cpp.i
+
+.PHONY : src/day3/text6.i
+
+# target to preprocess a source file
+src/day3/text6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/src/day3/text6.cpp.i
+.PHONY : src/day3/text6.cpp.i
+
+src/day3/text6.s: src/day3/text6.cpp.s
+
+.PHONY : src/day3/text6.s
+
+# target to generate assembly for a file
+src/day3/text6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/src/day3/text6.cpp.s
+.PHONY : src/day3/text6.cpp.s
+
+src/day4/text1.obj: src/day4/text1.cpp.obj
+
+.PHONY : src/day4/text1.obj
+
+# target to build an object file
+src/day4/text1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/src/day4/text1.cpp.obj
+.PHONY : src/day4/text1.cpp.obj
+
+src/day4/text1.i: src/day4/text1.cpp.i
+
+.PHONY : src/day4/text1.i
+
+# target to preprocess a source file
+src/day4/text1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/src/day4/text1.cpp.i
+.PHONY : src/day4/text1.cpp.i
+
+src/day4/text1.s: src/day4/text1.cpp.s
+
+.PHONY : src/day4/text1.s
+
+# target to generate assembly for a file
+src/day4/text1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/src/day4/text1.cpp.s
+.PHONY : src/day4/text1.cpp.s
+
 src/main/main.obj: src/main/main.cpp.obj
 
 .PHONY : src/main/main.obj
@@ -547,6 +667,9 @@ help:
 	@echo ... Day3Text2
 	@echo ... Day3Text3
 	@echo ... Day3Text4
+	@echo ... Day3Text5
+	@echo ... Day3Text6
+	@echo ... Day4Text1
 	@echo ... src/day1/text1.obj
 	@echo ... src/day1/text1.i
 	@echo ... src/day1/text1.s
@@ -574,6 +697,15 @@ help:
 	@echo ... src/day3/text4.obj
 	@echo ... src/day3/text4.i
 	@echo ... src/day3/text4.s
+	@echo ... src/day3/text5.obj
+	@echo ... src/day3/text5.i
+	@echo ... src/day3/text5.s
+	@echo ... src/day3/text6.obj
+	@echo ... src/day3/text6.i
+	@echo ... src/day3/text6.s
+	@echo ... src/day4/text1.obj
+	@echo ... src/day4/text1.i
+	@echo ... src/day4/text1.s
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s

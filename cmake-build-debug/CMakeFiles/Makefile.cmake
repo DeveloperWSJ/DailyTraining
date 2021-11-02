@@ -53,14 +53,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Day3Text5.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text2.dir/DependInfo.cmake"
   "CMakeFiles/DailyTraining.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text3.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text4.dir/DependInfo.cmake"
   "CMakeFiles/Day1Text1.dir/DependInfo.cmake"
+  "CMakeFiles/Day3Text6.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text4.dir/DependInfo.cmake"
   "CMakeFiles/Day2Text3.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text2.dir/DependInfo.cmake"
+  "CMakeFiles/Day4Text1.dir/DependInfo.cmake"
   )

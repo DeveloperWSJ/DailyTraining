@@ -72,16 +72,19 @@ CMAKE_BINARY_DIR = D:\Student\DailyTraining\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Day3Text5.dir/all
 all: CMakeFiles/Day2Text2.dir/all
 all: CMakeFiles/DailyTraining.dir/all
 all: CMakeFiles/Day3Text3.dir/all
 all: CMakeFiles/Day2Text4.dir/all
 all: CMakeFiles/Day1Text1.dir/all
+all: CMakeFiles/Day3Text6.dir/all
 all: CMakeFiles/Day2Text1.dir/all
 all: CMakeFiles/Day3Text4.dir/all
 all: CMakeFiles/Day2Text3.dir/all
 all: CMakeFiles/Day3Text1.dir/all
 all: CMakeFiles/Day3Text2.dir/all
+all: CMakeFiles/Day4Text1.dir/all
 
 .PHONY : all
 
@@ -91,18 +94,48 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Day3Text5.dir/clean
 clean: CMakeFiles/Day2Text2.dir/clean
 clean: CMakeFiles/DailyTraining.dir/clean
 clean: CMakeFiles/Day3Text3.dir/clean
 clean: CMakeFiles/Day2Text4.dir/clean
 clean: CMakeFiles/Day1Text1.dir/clean
+clean: CMakeFiles/Day3Text6.dir/clean
 clean: CMakeFiles/Day2Text1.dir/clean
 clean: CMakeFiles/Day3Text4.dir/clean
 clean: CMakeFiles/Day2Text3.dir/clean
 clean: CMakeFiles/Day3Text1.dir/clean
 clean: CMakeFiles/Day3Text2.dir/clean
+clean: CMakeFiles/Day4Text1.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Day3Text5.dir
+
+# All Build rule for target.
+CMakeFiles/Day3Text5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Day3Text5"
+.PHONY : CMakeFiles/Day3Text5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day3Text5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day3Text5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day3Text5.dir/rule
+
+# Convenience name for target.
+Day3Text5: CMakeFiles/Day3Text5.dir/rule
+
+.PHONY : Day3Text5
+
+# clean rule for target.
+CMakeFiles/Day3Text5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text5.dir\build.make CMakeFiles/Day3Text5.dir/clean
+.PHONY : CMakeFiles/Day3Text5.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Day2Text2.dir
@@ -240,6 +273,33 @@ CMakeFiles/Day1Text1.dir/clean:
 .PHONY : CMakeFiles/Day1Text1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Day3Text6.dir
+
+# All Build rule for target.
+CMakeFiles/Day3Text6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Day3Text6"
+.PHONY : CMakeFiles/Day3Text6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day3Text6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day3Text6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day3Text6.dir/rule
+
+# Convenience name for target.
+Day3Text6: CMakeFiles/Day3Text6.dir/rule
+
+.PHONY : Day3Text6
+
+# clean rule for target.
+CMakeFiles/Day3Text6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text6.dir\build.make CMakeFiles/Day3Text6.dir/clean
+.PHONY : CMakeFiles/Day3Text6.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Day2Text1.dir
 
 # All Build rule for target.
@@ -373,6 +433,33 @@ Day3Text2: CMakeFiles/Day3Text2.dir/rule
 CMakeFiles/Day3Text2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day3Text2.dir\build.make CMakeFiles/Day3Text2.dir/clean
 .PHONY : CMakeFiles/Day3Text2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Day4Text1.dir
+
+# All Build rule for target.
+CMakeFiles/Day4Text1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Day4Text1"
+.PHONY : CMakeFiles/Day4Text1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day4Text1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day4Text1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day4Text1.dir/rule
+
+# Convenience name for target.
+Day4Text1: CMakeFiles/Day4Text1.dir/rule
+
+.PHONY : Day4Text1
+
+# clean rule for target.
+CMakeFiles/Day4Text1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text1.dir\build.make CMakeFiles/Day4Text1.dir/clean
+.PHONY : CMakeFiles/Day4Text1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
