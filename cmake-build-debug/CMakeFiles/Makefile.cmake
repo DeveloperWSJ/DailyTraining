@@ -67,4 +67,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Day3Text2.dir/DependInfo.cmake"
   "CMakeFiles/Day4Text1.dir/DependInfo.cmake"
   "CMakeFiles/Dat4Text2.dir/DependInfo.cmake"
+  "CMakeFiles/Day4Text3.dir/DependInfo.cmake"
+  "CMakeFiles/Day4Text4.dir/DependInfo.cmake"
+  "CMakeFiles/Day4Text5.dir/DependInfo.cmake"
   )

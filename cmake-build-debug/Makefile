@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\Student\DailyTraining\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -310,6 +310,45 @@ Dat4Text2: cmake_check_build_system
 Dat4Text2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dat4Text2.dir\build.make CMakeFiles/Dat4Text2.dir/build
 .PHONY : Dat4Text2/fast
+
+#=============================================================================
+# Target rules for targets named Day4Text3
+
+# Build rule for target.
+Day4Text3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day4Text3
+.PHONY : Day4Text3
+
+# fast build rule for target.
+Day4Text3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text3.dir\build.make CMakeFiles/Day4Text3.dir/build
+.PHONY : Day4Text3/fast
+
+#=============================================================================
+# Target rules for targets named Day4Text4
+
+# Build rule for target.
+Day4Text4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day4Text4
+.PHONY : Day4Text4
+
+# fast build rule for target.
+Day4Text4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text4.dir\build.make CMakeFiles/Day4Text4.dir/build
+.PHONY : Day4Text4/fast
+
+#=============================================================================
+# Target rules for targets named Day4Text5
+
+# Build rule for target.
+Day4Text5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day4Text5
+.PHONY : Day4Text5
+
+# fast build rule for target.
+Day4Text5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text5.dir\build.make CMakeFiles/Day4Text5.dir/build
+.PHONY : Day4Text5/fast
 
 src/day1/text1.obj: src/day1/text1.cpp.obj
 
@@ -662,6 +701,87 @@ src/day4/text2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dat4Text2.dir\build.make CMakeFiles/Dat4Text2.dir/src/day4/text2.cpp.s
 .PHONY : src/day4/text2.cpp.s
 
+src/day4/text3.obj: src/day4/text3.cpp.obj
+
+.PHONY : src/day4/text3.obj
+
+# target to build an object file
+src/day4/text3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text3.dir\build.make CMakeFiles/Day4Text3.dir/src/day4/text3.cpp.obj
+.PHONY : src/day4/text3.cpp.obj
+
+src/day4/text3.i: src/day4/text3.cpp.i
+
+.PHONY : src/day4/text3.i
+
+# target to preprocess a source file
+src/day4/text3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text3.dir\build.make CMakeFiles/Day4Text3.dir/src/day4/text3.cpp.i
+.PHONY : src/day4/text3.cpp.i
+
+src/day4/text3.s: src/day4/text3.cpp.s
+
+.PHONY : src/day4/text3.s
+
+# target to generate assembly for a file
+src/day4/text3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text3.dir\build.make CMakeFiles/Day4Text3.dir/src/day4/text3.cpp.s
+.PHONY : src/day4/text3.cpp.s
+
+src/day4/text4.obj: src/day4/text4.cpp.obj
+
+.PHONY : src/day4/text4.obj
+
+# target to build an object file
+src/day4/text4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text4.dir\build.make CMakeFiles/Day4Text4.dir/src/day4/text4.cpp.obj
+.PHONY : src/day4/text4.cpp.obj
+
+src/day4/text4.i: src/day4/text4.cpp.i
+
+.PHONY : src/day4/text4.i
+
+# target to preprocess a source file
+src/day4/text4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text4.dir\build.make CMakeFiles/Day4Text4.dir/src/day4/text4.cpp.i
+.PHONY : src/day4/text4.cpp.i
+
+src/day4/text4.s: src/day4/text4.cpp.s
+
+.PHONY : src/day4/text4.s
+
+# target to generate assembly for a file
+src/day4/text4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text4.dir\build.make CMakeFiles/Day4Text4.dir/src/day4/text4.cpp.s
+.PHONY : src/day4/text4.cpp.s
+
+src/day4/text5.obj: src/day4/text5.cpp.obj
+
+.PHONY : src/day4/text5.obj
+
+# target to build an object file
+src/day4/text5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text5.dir\build.make CMakeFiles/Day4Text5.dir/src/day4/text5.cpp.obj
+.PHONY : src/day4/text5.cpp.obj
+
+src/day4/text5.i: src/day4/text5.cpp.i
+
+.PHONY : src/day4/text5.i
+
+# target to preprocess a source file
+src/day4/text5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text5.dir\build.make CMakeFiles/Day4Text5.dir/src/day4/text5.cpp.i
+.PHONY : src/day4/text5.cpp.i
+
+src/day4/text5.s: src/day4/text5.cpp.s
+
+.PHONY : src/day4/text5.s
+
+# target to generate assembly for a file
+src/day4/text5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text5.dir\build.make CMakeFiles/Day4Text5.dir/src/day4/text5.cpp.s
+.PHONY : src/day4/text5.cpp.s
+
 src/main/main.obj: src/main/main.cpp.obj
 
 .PHONY : src/main/main.obj
@@ -711,6 +831,9 @@ help:
 	@echo ... Day3Text5
 	@echo ... Day3Text6
 	@echo ... Day4Text1
+	@echo ... Day4Text3
+	@echo ... Day4Text4
+	@echo ... Day4Text5
 	@echo ... src/day1/text1.obj
 	@echo ... src/day1/text1.i
 	@echo ... src/day1/text1.s
@@ -750,6 +873,15 @@ help:
 	@echo ... src/day4/text2.obj
 	@echo ... src/day4/text2.i
 	@echo ... src/day4/text2.s
+	@echo ... src/day4/text3.obj
+	@echo ... src/day4/text3.i
+	@echo ... src/day4/text3.s
+	@echo ... src/day4/text4.obj
+	@echo ... src/day4/text4.i
+	@echo ... src/day4/text4.s
+	@echo ... src/day4/text5.obj
+	@echo ... src/day4/text5.i
+	@echo ... src/day4/text5.s
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s
