@@ -65,6 +65,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Day2Text3.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day3Text2.dir/DependInfo.cmake"
+  "CMakeFiles/Day5Text2.dir/DependInfo.cmake"
   "CMakeFiles/Day4Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day5Text1.dir/DependInfo.cmake"
   "CMakeFiles/Day4Text2.dir/DependInfo.cmake"
@@ -73,4 +74,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Day4Text5.dir/DependInfo.cmake"
   "CMakeFiles/Day4Text6.dir/DependInfo.cmake"
   "CMakeFiles/Day4Text7.dir/DependInfo.cmake"
+  "CMakeFiles/Day5Text3.dir/DependInfo.cmake"
   )
