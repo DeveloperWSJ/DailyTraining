@@ -19,6 +19,7 @@ D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day4Text3.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day4Text4.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day4Text5.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day4Text6.dir
+D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day5Text4.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day4Text7.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/Day5Text3.dir
 D:/Student/DailyTraining/cmake-build-debug/CMakeFiles/edit_cache.dir

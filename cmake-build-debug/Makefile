@@ -390,6 +390,19 @@ Day4Text6/fast:
 .PHONY : Day4Text6/fast
 
 #=============================================================================
+# Target rules for targets named Day5Text4
+
+# Build rule for target.
+Day5Text4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Day5Text4
+.PHONY : Day5Text4
+
+# fast build rule for target.
+Day5Text4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/build
+.PHONY : Day5Text4/fast
+
+#=============================================================================
 # Target rules for targets named Day4Text7
 
 # Build rule for target.
@@ -982,6 +995,33 @@ src/day5/text3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text3.dir\build.make CMakeFiles/Day5Text3.dir/src/day5/text3.cpp.s
 .PHONY : src/day5/text3.cpp.s
 
+src/day5/text4.obj: src/day5/text4.cpp.obj
+
+.PHONY : src/day5/text4.obj
+
+# target to build an object file
+src/day5/text4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/src/day5/text4.cpp.obj
+.PHONY : src/day5/text4.cpp.obj
+
+src/day5/text4.i: src/day5/text4.cpp.i
+
+.PHONY : src/day5/text4.i
+
+# target to preprocess a source file
+src/day5/text4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/src/day5/text4.cpp.i
+.PHONY : src/day5/text4.cpp.i
+
+src/day5/text4.s: src/day5/text4.cpp.s
+
+.PHONY : src/day5/text4.s
+
+# target to generate assembly for a file
+src/day5/text4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/src/day5/text4.cpp.s
+.PHONY : src/day5/text4.cpp.s
+
 src/main/main.obj: src/main/main.cpp.obj
 
 .PHONY : src/main/main.obj
@@ -1039,6 +1079,7 @@ help:
 	@echo ... Day5Text1
 	@echo ... Day5Text2
 	@echo ... Day5Text3
+	@echo ... Day5Text4
 	@echo ... src/day1/text1.obj
 	@echo ... src/day1/text1.i
 	@echo ... src/day1/text1.s
@@ -1102,6 +1143,9 @@ help:
 	@echo ... src/day5/text3.obj
 	@echo ... src/day5/text3.i
 	@echo ... src/day5/text3.s
+	@echo ... src/day5/text4.obj
+	@echo ... src/day5/text4.i
+	@echo ... src/day5/text4.s
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s

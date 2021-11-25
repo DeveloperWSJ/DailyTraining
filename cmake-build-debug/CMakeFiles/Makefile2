@@ -92,6 +92,7 @@ all: CMakeFiles/Day4Text3.dir/all
 all: CMakeFiles/Day4Text4.dir/all
 all: CMakeFiles/Day4Text5.dir/all
 all: CMakeFiles/Day4Text6.dir/all
+all: CMakeFiles/Day5Text4.dir/all
 all: CMakeFiles/Day4Text7.dir/all
 all: CMakeFiles/Day5Text3.dir/all
 
@@ -123,6 +124,7 @@ clean: CMakeFiles/Day4Text3.dir/clean
 clean: CMakeFiles/Day4Text4.dir/clean
 clean: CMakeFiles/Day4Text5.dir/clean
 clean: CMakeFiles/Day4Text6.dir/clean
+clean: CMakeFiles/Day5Text4.dir/clean
 clean: CMakeFiles/Day4Text7.dir/clean
 clean: CMakeFiles/Day5Text3.dir/clean
 
@@ -667,6 +669,33 @@ Day4Text6: CMakeFiles/Day4Text6.dir/rule
 CMakeFiles/Day4Text6.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day4Text6.dir\build.make CMakeFiles/Day4Text6.dir/clean
 .PHONY : CMakeFiles/Day4Text6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Day5Text4.dir
+
+# All Build rule for target.
+CMakeFiles/Day5Text4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Day5Text4"
+.PHONY : CMakeFiles/Day5Text4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day5Text4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day5Text4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day5Text4.dir/rule
+
+# Convenience name for target.
+Day5Text4: CMakeFiles/Day5Text4.dir/rule
+
+.PHONY : Day5Text4
+
+# clean rule for target.
+CMakeFiles/Day5Text4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text4.dir\build.make CMakeFiles/Day5Text4.dir/clean
+.PHONY : CMakeFiles/Day5Text4.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Day4Text7.dir
