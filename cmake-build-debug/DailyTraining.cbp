@@ -783,6 +783,48 @@
 					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Day5Text6">
+				<Option output="D:/Student/DailyTraining/cmake-build-debug/Day5Text6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day5Text6"/>
+					<CompileFile command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Day5Text6/fast">
+				<Option output="D:/Student/DailyTraining/cmake-build-debug/Day5Text6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day5Text6/fast"/>
+					<CompileFile command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Day4Text5">
 				<Option output="D:/Student/DailyTraining/cmake-build-debug/Day4Text5.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
@@ -1035,6 +1077,48 @@
 					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Day6Text7">
+				<Option output="D:/Student/DailyTraining/cmake-build-debug/Day6Text7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day6Text7"/>
+					<CompileFile command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Day6Text7/fast">
+				<Option output="D:/Student/DailyTraining/cmake-build-debug/Day6Text7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day6Text7/fast"/>
+					<CompileFile command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/environment/mingw64/bin/mingw32-make.exe -f &quot;D:/Student/DailyTraining/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/Student/DailyTraining/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1117,6 +1201,12 @@
 		</Unit>
 		<Unit filename="D:/Student/DailyTraining/src/day5/text5.cpp">
 			<Option target="Day5Text5"/>
+		</Unit>
+		<Unit filename="D:/Student/DailyTraining/src/day5/text6.cpp">
+			<Option target="Day5Text6"/>
+		</Unit>
+		<Unit filename="D:/Student/DailyTraining/src/day5/text7.cpp">
+			<Option target="Day6Text7"/>
 		</Unit>
 		<Unit filename="D:/Student/DailyTraining/src/main/main.cpp">
 			<Option target="DailyTraining"/>

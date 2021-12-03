@@ -90,12 +90,14 @@ all: CMakeFiles/Day5Text1.dir/all
 all: CMakeFiles/Day4Text2.dir/all
 all: CMakeFiles/Day4Text3.dir/all
 all: CMakeFiles/Day4Text4.dir/all
+all: CMakeFiles/Day5Text6.dir/all
 all: CMakeFiles/Day4Text5.dir/all
 all: CMakeFiles/Day5Text5.dir/all
 all: CMakeFiles/Day4Text6.dir/all
 all: CMakeFiles/Day5Text4.dir/all
 all: CMakeFiles/Day4Text7.dir/all
 all: CMakeFiles/Day5Text3.dir/all
+all: CMakeFiles/Day6Text7.dir/all
 
 .PHONY : all
 
@@ -123,12 +125,14 @@ clean: CMakeFiles/Day5Text1.dir/clean
 clean: CMakeFiles/Day4Text2.dir/clean
 clean: CMakeFiles/Day4Text3.dir/clean
 clean: CMakeFiles/Day4Text4.dir/clean
+clean: CMakeFiles/Day5Text6.dir/clean
 clean: CMakeFiles/Day4Text5.dir/clean
 clean: CMakeFiles/Day5Text5.dir/clean
 clean: CMakeFiles/Day4Text6.dir/clean
 clean: CMakeFiles/Day5Text4.dir/clean
 clean: CMakeFiles/Day4Text7.dir/clean
 clean: CMakeFiles/Day5Text3.dir/clean
+clean: CMakeFiles/Day6Text7.dir/clean
 
 .PHONY : clean
 
@@ -619,6 +623,33 @@ CMakeFiles/Day4Text4.dir/clean:
 .PHONY : CMakeFiles/Day4Text4.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Day5Text6.dir
+
+# All Build rule for target.
+CMakeFiles/Day5Text6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text6.dir\build.make CMakeFiles/Day5Text6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text6.dir\build.make CMakeFiles/Day5Text6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target Day5Text6"
+.PHONY : CMakeFiles/Day5Text6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day5Text6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day5Text6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day5Text6.dir/rule
+
+# Convenience name for target.
+Day5Text6: CMakeFiles/Day5Text6.dir/rule
+
+.PHONY : Day5Text6
+
+# clean rule for target.
+CMakeFiles/Day5Text6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text6.dir\build.make CMakeFiles/Day5Text6.dir/clean
+.PHONY : CMakeFiles/Day5Text6.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Day4Text5.dir
 
 # All Build rule for target.
@@ -779,6 +810,33 @@ Day5Text3: CMakeFiles/Day5Text3.dir/rule
 CMakeFiles/Day5Text3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day5Text3.dir\build.make CMakeFiles/Day5Text3.dir/clean
 .PHONY : CMakeFiles/Day5Text3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Day6Text7.dir
+
+# All Build rule for target.
+CMakeFiles/Day6Text7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day6Text7.dir\build.make CMakeFiles/Day6Text7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day6Text7.dir\build.make CMakeFiles/Day6Text7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Student\DailyTraining\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Day6Text7"
+.PHONY : CMakeFiles/Day6Text7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Day6Text7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Day6Text7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Student\DailyTraining\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Day6Text7.dir/rule
+
+# Convenience name for target.
+Day6Text7: CMakeFiles/Day6Text7.dir/rule
+
+.PHONY : Day6Text7
+
+# clean rule for target.
+CMakeFiles/Day6Text7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Day6Text7.dir\build.make CMakeFiles/Day6Text7.dir/clean
+.PHONY : CMakeFiles/Day6Text7.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
